@@ -4,7 +4,7 @@
   "description": "A twitter bot posting stuff that was made 20 years ago",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Maël Brunet",
   "license": "ISC",
