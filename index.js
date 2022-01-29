@@ -24,7 +24,7 @@ if (day.length < 2) {
 
 const tweet = () => {
     fetch(
-  `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.TMDB_API_KEY}&primary_release_date.gte=${year}-${month}-${day}&primary_release_date.lte=${year}-${month}-${day}&vote_count.gte=200&with_original_language=en`
+  `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.TMDB_API_KEY}&primary_release_date.gte=${year}-${month}-${day}&primary_release_date.lte=${year}-${month}-${day}&vote_count.gte=200`
 )
   .then((res) => res.json())
   .then((json) => {
